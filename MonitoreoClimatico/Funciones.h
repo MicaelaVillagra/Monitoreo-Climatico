@@ -1,6 +1,8 @@
 #ifndef FUNCIONES_H_INCLUDED
 #define FUNCIONES_H_INCLUDED
 using namespace std;
+#include <string>
+#include <cstdlib>
 
 void Pausar();
 void LimpiarPantalla();

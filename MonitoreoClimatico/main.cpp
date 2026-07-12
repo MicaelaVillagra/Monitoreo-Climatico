@@ -1,7 +1,8 @@
 #include <iostream>
-
+#include <cstdlib>
 using namespace std;
 #include "Funciones.h"
+#include <string>
 /*
 Sistema de Monitoreo Climático
 Una empresa de meteorología necesita un sistema para registrar y analizar datos climáticos de distintas ciudades. El sistema debe manejar información de 4 ciudades.

@@ -1,6 +1,8 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 #include "Funciones.h"
+#include <string>
 
 void Pausar()
 {
@@ -32,9 +34,9 @@ void MostrarMenu()
 
 void CargarCiudades(int vec1[], string vec2[], float vec3[], int vec4[], int tamanio)
 {
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"                     CARGAR CIUDADES                    "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
 
     for(int i  = 0 ; i < tamanio; i++)
     {
@@ -55,9 +57,9 @@ void CargarCiudades(int vec1[], string vec2[], float vec3[], int vec4[], int tam
 
 void MostrarCiudades(int vec1[], string vec2[], float vec3[], int vec4[], int tamanio)
 {
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"                    MOSTRAR CIUDADES                    "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     for (int i= 0; i< tamanio ;i++ )
     {
         cout<<"Codigo de la ciudad : " << vec1[i] <<endl;
@@ -70,9 +72,9 @@ void MostrarCiudades(int vec1[], string vec2[], float vec3[], int vec4[], int ta
 
 int BuscarTemperaturaMasAlta(string vec2[], float vec3[], int tamanio)
 {
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"                TEMPERATURA MAS ALTA                    "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     float TemperaturaMasAlta = vec3[0];
     int posicion = 0;
 
@@ -89,9 +91,9 @@ int BuscarTemperaturaMasAlta(string vec2[], float vec3[], int tamanio)
 
 float CalcularTemperaturaPromedio (float vec3[], int tamanio)
 {
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"                 PROMEDIO TEMPERATURA                   "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     float suma = 0;
 
     for (int i = 0; i <tamanio ; i ++ )
@@ -106,9 +108,9 @@ float CalcularTemperaturaPromedio (float vec3[], int tamanio)
 
 float Porcentaje (int vec4[], int tamanio)
 {
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"                 PROMEDIO TEMPERATURA                   "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     int contador = 0;
 
     for (int i = 0; i < tamanio ; i++ )
@@ -125,9 +127,9 @@ float Porcentaje (int vec4[], int tamanio)
 
 int TemperaturaMayor30YmenosDiezDiasLLuvia(float vec3[], int vec4[], int tamanio)
 {
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"  TEMPERATURA MAYOR A 30 Y MENOS DE 10 DIAS DE LLUVIA   "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     int contador = 0;
     for(int i = 0; i < tamanio; i++)
     {
@@ -141,9 +143,9 @@ int TemperaturaMayor30YmenosDiezDiasLLuvia(float vec3[], int vec4[], int tamanio
 int MostrarCiudadMenosLluvia(string vec2[], int vec4[], int tamanio)
 {
 
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     cout<<"          CIUDAD CON MENOS DIAS DE LLUVIA               "<<endl;
-    cout<<"========================================================"<<endl:
+    cout<<"========================================================"<<endl;
     int MenosLLuvia = vec4[0];
     int posicion = 0;
 

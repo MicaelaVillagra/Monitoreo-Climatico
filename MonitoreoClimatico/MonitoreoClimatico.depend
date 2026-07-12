@@ -3,9 +3,13 @@
 	<iostream>
 	"Funciones.h"
 
-1783810983 /home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/Funciones.h
+1783826979 /home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/Funciones.h
+	<string>
+	<cstdlib>
 
-1783811201 source:/home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/main.cpp
+1783826992 source:/home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/main.cpp
 	<iostream>
+	<cstdlib>
 	"Funciones.h"
+	<string>
 
