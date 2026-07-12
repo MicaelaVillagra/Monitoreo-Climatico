@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1783811035 source:/home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/Funciones.cpp
+	<iostream>
+	"Funciones.h"
+
+1783810983 /home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/Funciones.h
+
+1783811201 source:/home/mica/Codigo/SistemaMonitoreo/MonitoreoClimatico/main.cpp
+	<iostream>
+	"Funciones.h"
+
